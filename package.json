@@ -10,12 +10,6 @@
       "Утилиты"
     ],
     "icon": "server-cog",
-    "supportedHosts": [
-      "mc.mineblaze.net",
-      "mc.masedworld.net",
-      "mc.cheatmine.net",
-      "mc.dexland.org"
-    ],
     "dependencies": {
       "parser-keksik": "*"
     },
