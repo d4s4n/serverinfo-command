@@ -1,0 +1,37 @@
+{
+  "name": "serverinfo-command",
+  "version": "1.1.0",
+  "description": "Показывает техническую информацию о сервере.",
+  "main": "index.js",
+  "author": "I_Sahorok",
+  "botpanel": {
+    "categories": [
+      "Команды",
+      "Утилиты"
+    ],
+    "icon": "server-cog",
+    "supportedHosts": [
+      "mc.mineblaze.net",
+      "mc.masedworld.net",
+      "mc.cheatmine.net",
+      "mc.dexland.org"
+    ],
+    "dependencies": {
+      "parser-keksik": "*"
+    },
+    "settings": {
+      "messageLines": {
+        "type": "string[]",
+        "label": "Сообщения",
+        "description": "Используйте {cpuModel}, {cpuCores}, {cpuThreads}, {cpuLoad}, {usedMem}, {totalMem}, {uptime}.",
+        "default": [
+          "Информация о сервере:",
+          "CPU: {cpuModel} ({cpuCores} ядер / {cpuThreads} потоков)",
+          "Нагрузка CPU: {cpuLoad}%",
+          "RAM: {usedMem} МБ / {totalMem} МБ",
+          "Время онлайна: {uptime}"
+        ]
+      }
+    }
+  }
+}
