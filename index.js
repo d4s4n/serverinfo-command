@@ -33,7 +33,7 @@ async function onLoad(bot, options) {
                 permissions: PERMISSION_NAME,
                 owner: PLUGIN_OWNER_ID,
                 cooldown: 30,
-                allowedChatTypes: ['clan']
+                allowedChatTypes: ['clan', 'private', 'chat']
             });
         }
 
